@@ -10,7 +10,8 @@ def sqrt(x):
     return z
 
     #Calculate Suare root & print it
-z = sqrt(float(input()))
+#Get Input
+z = sqrt(float(input("Enter number to get sqrt approximation: ")))
 #print z
-print(z)
-print(z*z)
+print("Sqrt:",z)
+print("Original: ",z*z)
